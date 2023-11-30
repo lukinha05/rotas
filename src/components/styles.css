@@ -95,3 +95,49 @@
     margin-top: 20px;
     
   }
+  .image-container-square {
+    width: 300px; 
+    height: 300px; 
+    margin-right: 50px; 
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  .image-container-square img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+  }
+  .horizontal-images {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .image-container-square {
+    width: 30%; /* Ajuste o tamanho conforme necessário */
+    margin: 10px; /* Espaçamento entre as imagens */
+    text-align: center; /* Centraliza o texto */
+    position: relative; /* Adiciona posição relativa para permitir a sobreposição das legendas */
+  }
+  
+  .image-container-square img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .image-container-square p {
+    position: absolute; /* Posiciona a legenda em relação ao contêiner */
+    bottom: 5px; /* Ajuste para a posição vertical da legenda */
+    left: 50%; /* Ajuste para centralizar a legenda */
+    transform: translateX(-50%); /* Centraliza a legenda horizontalmente */
+    color: #fff; /* Cor do texto */
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente para legenda */
+    padding: 5px; /* Espaçamento interno da legenda */
+    width: calc(100% - 10px); /* Largura igual à largura do contêiner menos o espaçamento */
+  }
+  .footer {
+    background-color: #FFD54F;
+    color: #000;
+    text-align: center;
+    padding: 20px 0;
+  }

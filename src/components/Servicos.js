@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
-export default function Usuario() {
+export default function serviços() {
     return (
         <div>
 
             <h1>
-                Usuário
+                Serviços
             </h1>
             <Link to="/">retornar a página inicial</Link> 
         </div>
